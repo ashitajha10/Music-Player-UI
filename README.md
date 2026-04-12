@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Spotify Clone Banner](./assets/banner.png)
+
 
 [![GitHub License](https://img.shields.io/github/license/ashitajha10/Spotify-Clone?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/Spotify-Clone/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/ashitajha10/Spotify-Clone?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/Spotify-Clone/stargazers)
@@ -19,7 +19,7 @@
 ## 📖 Table of Contents
 - [About the Project](#-about-the-project)
 - [Key Features](#-key-features)
-- [Visual Showcase](#-visual-showcase)
+
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
 - [Responsive Benchmarks](#-responsive-benchmarks)
@@ -50,15 +50,7 @@ The objective was to master responsive layouts and complex UI patterns (like the
 
 ---
 
-## 🖼️ Visual Showcase
 
-````carousel
-![Desktop View](./assets/desktop_mockup.png)
-<!-- slide -->
-![Mobile View](./assets/mobile_mockup.png)
-````
-
----
 
 ## 🛠️ Tech Stack
 
