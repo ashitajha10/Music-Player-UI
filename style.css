@@ -336,15 +336,45 @@ a {
 .footer {
    height: 300px;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
 }
 
 .line {
    width: 90%;
-   height: 50%;
    border-top: 1px solid white;
    opacity: 0.4;
+   margin-bottom: 2rem;
+}
+
+.connect-with-me {
+   text-align: center;
+}
+
+.connect-with-me p {
+   font-weight: 700;
+   font-size: 1.25rem;
+   margin-bottom: 1.5rem;
+   opacity: 0.8;
+}
+
+.social-icons {
+   display: flex;
+   gap: 2.5rem;
+   justify-content: center;
+}
+
+.social-icons a {
+   font-size: 2rem;
+   opacity: 0.7;
+   transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+   opacity: 1;
+   transform: scale(1.15);
+   color: #1bd760;
 }
 
 .music-player { 
