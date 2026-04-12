@@ -15,7 +15,7 @@ body {
 .sidebar {
    background-color: black;
    width: 340px;
-   border-radius: 1rem; /*16px*/
+   border-radius: 1rem;
    margin-right: 0.5rem;
 }
 
@@ -165,11 +165,145 @@ a {
    margin-right: 1rem;
 }
 
-@media (max-width: 1000px) {
+
+.mobile-bottom-nav {
+   display: none;
+   position: fixed;
+   bottom: 72px; 
+   width: 100%;
+   background-color: black;
+   justify-content: space-around;
+   align-items: center;
+   height: 60px;
+   z-index: 100;
+   border-top: 1px solid #232323;
+}
+
+.mobile-nav-option {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   opacity: 0.7;
+   font-size: 0.75rem;
+}
+
+.mobile-nav-option i {
+   font-size: 1.25rem;
+   margin-bottom: 2px;
+}
+
+.mobile-nav-option p {
+   margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+   .sidebar {
+      width: 250px;
+   }
+   .card {
+       width: 130px;
+       margin-left: 1rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .sidebar {
+      width: 70px;
+      padding: 0.5rem;
+   }
+   .sidebar .nav-option a, 
+   .sidebar .lib-option a, 
+   .sidebar .box, 
+   .sidebar .icons,
+   .sidebar .box-p1,
+   .sidebar .box-p2,
+   .sidebar .badge {
+      display: none;
+   }
+   .sidebar .nav-option, .sidebar .lib-option {
+       padding: 0.75rem 0;
+       display: flex;
+       justify-content: center;
+   }
+   .sidebar .nav-option i, .sidebar .lib-option img {
+       font-size: 1.5rem;
+       margin-left: 0;
+   }
+   .main-content {
+       padding: 0 1rem;
+   }
+}
+
+@media (max-width: 480px) {
+   .sidebar {
+      display: none;
+   }
+   .mobile-bottom-nav {
+      display: flex;
+   }
+   .main {
+       padding: 0;
+   }
+   .main-content {
+       padding: 0 0.75rem;
+       margin-bottom: 132px; 
+   }
+   .sticky-nav {
+       padding: 0.75rem 0;
+   }
    .hide {
       display: none;
    }
+   .card {
+       width: calc(50% - 1rem);
+       margin: 0.5rem;
+       padding: 0.75rem;
+   }
+   h2 {
+       font-size: 1.25rem;
+       margin-left: 0.5rem;
+   }
+   .cards-container {
+       justify-content: flex-start;
+       padding: 0 0.25rem;
+   }
+   .sticky-nav-icons {
+       margin-left: 0.25rem;
+   }
+   .music-player {
+       height: 70px;
+   }
+   .mobile-bottom-nav {
+       bottom: 70px;
+   }
+   .hide-mobile {
+       display: none;
+   }
+   .album {
+       width: 50%;
+   }
+   .player {
+       width: 50%;
+   }
+   .player-control-icon {
+       margin-right: 1rem;
+   }
+   .controls {
+       display: none;
+   }
+   .playback-bar {
+       display: none; 
+   }
+   #song-info-p1 {
+       font-size: 14px;
+   }
+   #song-info-p2 {
+       font-size: 10px;
+   }
 }
+
 
 .card {
    background-color: #232323;
