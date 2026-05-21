@@ -1,4 +1,4 @@
-# 🎵 Spotify Clone: Premium Static Web Player
+# 🎵 Music Player UI
 
 <div align="center">
 
