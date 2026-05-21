@@ -4,13 +4,13 @@
 
 
 
-[![GitHub License](https://img.shields.io/github/license/ashitajha10/Spotify-Clone?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/Spotify-Clone/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/ashitajha10/Spotify-Clone?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/Spotify-Clone/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/ashitajha10/Spotify-Clone?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/Spotify-Clone/issues)
+[![GitHub License](https://img.shields.io/github/license/ashitajha10/music-player-ui?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/music-player-ui/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/ashitajha10/music-player-ui?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/music-player-ui/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/ashitajha10/music-player-ui?style=for-the-badge&color=1DB760)](https://github.com/ashitajha10/music-player-ui/issues)
 
 **A pixel-perfect, fully responsive Spotify Web Player clone built with advanced CSS and semantic HTML.**
 
-[Explore Demo](https://ashitajha10.github.io/Spotify-Clone/) · [Report Bug](https://github.com/ashitajha10/Spotify-Clone/issues) · [Request Feature](https://github.com/ashitajha10/Spotify-Clone/issues)
+[Explore Demo](https://ashitajha10.github.io/music-player-ui/) · [Report Bug](https://github.com/ashitajha10/music-player-ui/issues) · [Request Feature](https://github.com/ashitajha10/music-player-ui/issues)
 
 </div>
 
@@ -73,7 +73,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the Repo**
    ```bash
-   git clone https://github.com/ashitajha10/Spotify-Clone.git
+   git clone https://github.com/ashitajha10/music-player-ui.git
    ```
 2. **Open Index**
    Simply open `index.html` in your favorite browser!
